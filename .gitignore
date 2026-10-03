@@ -1,0 +1,33 @@
+# Private media and per-device state never belong in the code repository.
+/projects/
+/vendor/
+/catalog.js
+/settings.json
+/tools/ffmpeg*
+!/tools/FFMPEG_LICENSE.txt
+/drive_inventory.json
+/HANDOFF_PACKAGE_VERIFICATION.json
+/TRANSFER_VERIFICATION.json
+__pycache__/
+*.pyc
+.DS_Store
+*.zip
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.mxf
+*.MXF
+*.wav
+*.WAV
+*.m4a
+*.M4A
+*.mp3
+*.flac
+*.jpg
+*.png
+# Owner-specific one-time packaging helpers stay in the working folder only.
+/seed_trudent.py
+/build_release.py
+/transfer_to_transcend.py
+/package_full_handoff.py

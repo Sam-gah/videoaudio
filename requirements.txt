@@ -1,0 +1,4 @@
+# Optional: automatic audio matching. Catalog and rendering use Python's standard library.
+numpy>=1.26,<3
+scipy>=1.11,<2
+imageio-ffmpeg>=0.6,<1
