@@ -2,6 +2,8 @@
 
 Offline HTML dashboard plus a local Python service. No subscriptions, accounts, cloud uploads or API charges. This is a preparation/handoff tool, not a replacement for the human editor.
 
+Start with the [project index](INDEX.md) or [Windows editor/developer guide](GUIDE.md). The [HTML dashboard](index.html) runs locally after launching the app. For the approved technical settings and previous fixes, read [CODEX_HANDOFF.md](CODEX_HANDOFF.md).
+
 ## Cloning from GitHub
 
 The Git repository contains the application, approved Trudent LUT and CODEX_HANDOFF.md, **not the client videos, recordings, finished exports or machine-specific catalog**. Clone it to the editor's laptop or a writable folder on Transcend. On Windows, run Setup_Windows.bat once and then Start_Windows.bat. The first launch creates a fresh local client library and catalog. Use Import folders to choose the video/audio locations already on the hard drive. Imported media, rendered files, saved notes and installed dependencies are ignored by Git and remain private on that computer/drive.
